@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    >
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingRight="7dp"
+        android:gravity="start"
+        android:background="?attr/textBackColour"
+        android:textColor="?attr/textForeColour"
+        android:textStyle="bold"
+        android:paddingBottom="5px" />
+
+    <TextView
+        android:id="@+id/txtauther"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingRight="7dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="start"
+        android:background="?attr/textBackColour"
+        android:textColor="?attr/textForeColour"
+        android:textStyle="bold"
+        android:paddingBottom="5px" />
+    <TextView
+        android:id="@+id/txtcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:background="?attr/textBackColour"
+        android:textColor="?attr/textForeColour"
+        android:paddingRight="7dp"
+        android:textColorLink="#ff2495ff" />
+
+
+</LinearLayout>

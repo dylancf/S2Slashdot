@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/textBackColour">
+
+    <ListView
+        android:id="@+id/listarticle"
+        android:tag="7inch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#ffaeaeae"
+        android:dividerHeight="1px"
+        android:scrollbarSize="7dp"
+        android:scrollbarThumbVertical="@drawable/custom_scroll_style"
+        android:paddingLeft="7dp"
+        >
+    </ListView>
+</LinearLayout>

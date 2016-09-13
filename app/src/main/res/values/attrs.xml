@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dynamic_style_attrs">
+        <!-- icon src attribute -->
+        <attr name="textBackColour" format="reference" />
+        <attr name="textForeColour" format="reference" />
+    </declare-styleable>
+</resources>

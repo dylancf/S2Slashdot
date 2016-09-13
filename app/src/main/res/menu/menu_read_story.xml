@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.aella_services.s2slashdot.ReadStory">
+    <item android:id="@+id/action_share" android:title="@string/read_story_share"
+        android:orderInCategory="100" app:showAsAction="always"  android:icon="@drawable/share" />
+    <item android:id="@+id/action_refilter" android:title="@string/read_story_refilter"
+        android:orderInCategory="100" app:showAsAction="always"  android:icon="@drawable/filter" />
+</menu>
